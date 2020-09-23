@@ -1,0 +1,19 @@
+ID                 n. incrementale    PRIMARY KEY, UNIQUE, AUTO-INCREMENT
+Costruttore            stringa        varchar(30)  notnull        
+Tipo                   stringa        varchar(20)  notnull        
+Modello                stringa        varchar(25)  notnull    
+Descrizione            stringa        text         notnull
+Porte                  numero         tinyint      notnull        
+Alimentazione          stringa        varchar(20)  notnull        
+Cilindrata             numero         smallint     notnull        
+CV                     numero         smallint     notnull        
+Cambio                 stringa        varchar(15)  notnull        
+Colore carrozzeria     stringa        varchar(15)  notnull        
+Accessori              stringa        text         default
+Classe emissioni       stringa        varchar(15)  notnull        
+Immatricolazione       data           year         notnull        
+Km percorsi            numero         mediumint    notnull        
+Numero targa           stringa        tinyint      notnull unique
+Revisione              booleano       tinyint      notnull        
+Precedenti proprietari numero         tinyint      null
+Prezzo                 numero         float (8,2)  notnull unique         
